@@ -1,0 +1,654 @@
+#title-y {
+    margin-bottom: 30%;
+    margin-left: 60%;
+}
+#y-axis {
+    width: 25%;
+    font-size: 2vw;
+    text-align: center;
+    float: left;
+}
+#y-axisline {
+    height: 40vw;
+    width: 0.3vw;
+    background-color: black;
+    margin-left: 1%;
+    float: left;
+    margin-top: 10%;
+}
+.y-axisnum {
+    margin-top: 25%;
+    margin-left: 60%;
+}
+#x-axisline {
+    margin-top: 1%;
+    float: left;
+    width: 90%;
+    margin-left: 6%;
+    border: none;
+    background-color: black;
+    height: 0.3vw;
+}
+.x-axis {
+    float: left;
+    width: 10%;
+    font-size: 2vw;
+}
+#days{
+    float: left;
+    width: 70%;
+    margin-left: 23%;
+    text-align: center;
+    font-size: 2vw;
+}
+#monday {
+    margin-left: 30%;
+}
+body {
+    margin: 0%;
+}
+#navigation {
+    overflow: hidden;
+    background-color: #0098fdfb;
+    width: 15%;
+    z-index: 1;
+    position: fixed;
+    height: 100%;
+    top: 0;
+}
+.navigationText {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 4%;
+    text-decoration: none;
+    font-size: 2vw;
+    width: 100%;
+    z-index: 1;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navigationText:hover {
+    background-color: #ffffff;
+    color: #0098fdfb;
+}
+#section1 {
+    background-color: #0098fdfb;
+    padding-bottom: 51%;
+    margin: 3%;
+    border-radius: 1vw;
+}
+#rectangletracker {
+    background-color: white;
+    height: 46.8vw;
+    position: absolute;
+    width: 91%;
+    margin: 1.5%;
+    border-radius: 1vw;
+}
+.bigcircle {
+    height: 30vw;
+    width: 30vw;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-top: 10%;
+    position: absolute;
+}
+.smallcircle {
+    height: 25vw;
+    width: 25vw;
+    border-radius: 50%;
+    margin-top: 12.5%;
+    position: absolute;
+    background-color: white;
+}
+#circle1 {
+    margin-left: 10%;
+    background-color: orange;
+}
+#circle2 {
+    margin-left: 55%;
+    background-color: green;
+}
+#circle3 {
+    margin-left: 12.5%;
+}
+#circle4 {
+    margin-left: 57.5%;
+}
+.circleinfo {
+    text-align: center;
+    font-size: 4vw;
+    margin-top: 20%;
+}
+#calories {
+    color: orange;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#steps {
+    color: green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#section2 {
+    background-color: #0098fdfb;
+    padding-bottom: 1%;
+    margin: 3%;
+    border-radius: 1vw;
+    margin-bottom: 15%;
+}
+#date {
+    text-align: center;
+    color: white;
+    margin-top: 1%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4vw;
+}
+.rectanglehistory {
+    background-color: white;
+    height: 15vw;
+    width: 97%;
+    margin: 1.5%;
+    border-radius: 1vw;
+}
+#activityhistory {
+    text-align: center;
+    color: white;
+    font-size: 5vw;
+    padding-top: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#historyinfos {
+    display: flex;
+}
+.historyinfo {
+    flex: 33.33%;
+    text-align: center;
+    color: white;
+    margin-top: 0%;
+    font-size: 3.5vw;
+}
+#historyinfosnum {
+    display: flex;
+}
+.historyinfonum {
+    flex: 33.33%;
+    text-align: center;
+    margin-top: 0%;
+    color: white;
+    font-size: 3.5vw;
+}
+.day {
+    text-align: center;
+    margin-top: 1.5%;
+    padding-top: 1.5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3.5vw;
+}
+.historyinfonumday {
+    flex: 33.33%;
+    text-align: center;
+    margin-top: 0%;
+    color: black;
+    font-size: 3.5vw;
+}
+.sports {
+    float:left;
+    width:20%;
+    margin-top: 3%;
+    height: 20vw;
+    border-radius: 1vw;
+    transition: transform .2s;
+    z-index: -1;
+    margin-left: 1%;
+}
+.sports:hover {
+    transform: scale(1.06);
+    z-index: -1;
+}
+#jogging {
+    background-color: orange;
+    margin-left: 17%;
+}
+#indoorjogging {
+    background-color: yellow;
+}
+#cycling {
+    background-color: rgb(28, 212, 28);
+}
+#weighttraining {
+    background-color: red;
+}
+#skiing {
+    background-color: #0098fdfb;
+    margin-left: 17%;
+}
+#walking {
+    background-color: rgb(88, 13, 13);
+    margin-bottom: 20%;
+}
+#jogimg {
+    width: 100%;
+    margin-top: 10%;
+    margin-left: -17%;
+}
+#indoorjogimg {
+    width: 100%;
+    margin-top: 10%;
+    margin-left: -1%;
+}
+#cyclingimg {
+    width: 120%;
+    margin-left: -7%;
+    margin-top: 24%;
+}
+#weighttrainingimg {
+    width: 100%;
+    margin-top: 28%;
+    margin-left: 0%;
+}
+#skiingimg {
+    width: 161%;
+    margin-left: -50%;
+}
+#walkingimg {
+    width: 110%;
+    margin-left: 0%;
+}
+#jogtext, #indoorjogtext, #cyclingtext, #weighttrainingtext, #skiingtext, #walkingtext {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4vw;
+}
+#jogtext {
+    margin-left: 40%;
+    margin-top: -35%;
+    color: rgb(122, 1, 1);
+}
+#indoorjogtext {
+    margin-left: 20%;
+    margin-top: -60%;
+    color: black;
+}
+#cyclingtext {
+    margin-left: 20%;
+    margin-top: -90%;
+    color: rgb(0, 88, 27);
+}
+#weighttrainingtext {
+    margin-left: 20%;
+    margin-top: -100%;
+    color: rgb(255, 223, 163);
+}
+#skiingtext {
+    margin-left: 50%;
+    margin-top: -28%;
+    color: rgb(188, 255, 255);
+}
+#walkingtext {
+    margin-left: 7%;
+    margin-top: -100%;
+    color: burlywood;
+}
+#profile {
+    background-color: rgb(199, 199, 199);
+    margin: 3%;
+    border-radius: 10vw;
+    height: 20vw;
+    margin-left: 18%;
+}
+#pfp {
+    float:left;
+    width: 22.5%;
+    border-radius: 40vw;
+    margin-top: 1.7%;
+    margin-left: 1.5%;
+}
+#myprofile {
+    margin-left: 20%;
+    font-size: 6vw;
+}
+#logout {
+    padding-top: 8%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float:left;
+    margin-top: -13.8%;
+    padding-bottom: 8.5%;
+    font-size: 4vw;
+}
+#logout:hover {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+}
+.personalinfo {
+    float: left;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 50%;
+    font-size: 3.5vw;
+    margin-left: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.profileoptions {
+    margin-top: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 7vw;
+    padding: 5%;
+    margin-left: 15%;
+}
+.profileoptions:hover {
+    font-size: 10vw;
+    background-color: gray;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0%;
+    }
+    #navigation {
+        overflow: hidden;
+        background-color: #0098fdfb;
+        position: fixed;
+        bottom: 0;
+        top: auto;
+        width: 100%;
+        z-index: 1;
+        height: auto;
+    }
+    .navigationText {
+        float: left;
+        display: block;
+        color: #ffffff;
+        text-align: center;
+        padding: 4%;
+        text-decoration: none;
+        font-size: 4vw;
+        width: 17%;
+        margin-right: 0%;
+        z-index: 1;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .navigationText:hover {
+        background-color: #ffffff;
+        color: #0098fdfb;
+    }
+    #section1 {
+        background-color: #0098fdfb;
+        padding-bottom: 51%;
+        margin: 3%;
+        border-radius: 1vw;
+    }
+    #rectangletracker {
+        background-color: white;
+        height: 46.8vw;
+        position: absolute;
+        width: 91%;
+        margin: 1.5%;
+        border-radius: 1vw;
+    }
+    .bigcircle {
+        height: 30vw;
+        width: 30vw;
+        background-color: #ffffff;
+        border-radius: 50%;
+        margin-top: 10%;
+        position: absolute;
+    }
+    .smallcircle {
+        height: 25vw;
+        width: 25vw;
+        border-radius: 50%;
+        margin-top: 12.5%;
+        position: absolute;
+        background-color: white;
+    }
+    #circle1 {
+        margin-left: 10%;
+        background-color: orange;
+    }
+    #circle2 {
+        margin-left: 55%;
+        background-color: green;
+    }
+    #circle3 {
+        margin-left: 12.5%;
+    }
+    #circle4 {
+        margin-left: 57.5%;
+    }
+    .circleinfo {
+        text-align: center;
+        font-size: 4vw;
+        margin-top: 20%;
+    }
+    #calories {
+        color: orange;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+    #steps {
+        color: green;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+    #section2 {
+        background-color: #0098fdfb;
+        padding-bottom: 1%;
+        margin: 3%;
+        border-radius: 1vw;
+        margin-bottom: 15%;
+    }
+    #date {
+        text-align: center;
+        color: white;
+        margin-top: 1%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 4vw;
+    }
+    .rectanglehistory {
+        background-color: white;
+        height: 15vw;
+        width: 97%;
+        margin: 1.5%;
+        border-radius: 1vw;
+    }
+    #activityhistory {
+        text-align: center;
+        color: white;
+        font-size: 5vw;
+        padding-top: 3%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+    #historyinfos {
+        display: flex;
+    }
+    .historyinfo {
+        flex: 33.33%;
+        text-align: center;
+        color: white;
+        margin-top: 0%;
+        font-size: 3.5vw;
+    }
+    #historyinfosnum {
+        display: flex;
+    }
+    .historyinfonum {
+        flex: 33.33%;
+        text-align: center;
+        margin-top: 0%;
+        color: white;
+        font-size: 3.5vw;
+    }
+    .day {
+        text-align: center;
+        margin-top: 1.5%;
+        padding-top: 1.5%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 3.5vw;
+    }
+    .historyinfonumday {
+        flex: 33.33%;
+        text-align: center;
+        margin-top: 0%;
+        color: black;
+        font-size: 3.5vw;
+    }
+    .sports {
+        float:left;
+        width:94%;
+        margin-left: 3%;
+        margin-top: 3%;
+        height: 35vw;
+        border-radius: 1vw;
+        transition: transform .2s;
+        z-index: -1;
+    }
+    .sports:hover {
+        transform: scale(1.06);
+        z-index: -1;
+    }
+    #jogging {
+        background-color: orange;
+        margin-left: 3%;
+    }
+    #indoorjogging {
+        background-color: yellow;
+    }
+    #cycling {
+        background-color: rgb(28, 212, 28);
+    }
+    #weighttraining {
+        background-color: red;
+    }
+    #skiing {
+        background-color: #0098fdfb;
+        margin-left: 3%;
+    }
+    #walking {
+        background-color: rgb(88, 13, 13);
+        margin-bottom: 20%;
+    }
+    #jogimg {
+        width: 40%;
+        margin-top: 1%;
+        margin-left: 5%;
+    }
+    #indoorjogimg {
+        width: 40%;
+        margin-top: 1%;
+        margin-left: 50%;
+    }
+    #cyclingimg {
+        width: 60%;
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    #weighttrainingimg {
+        width: 50%;
+        margin-top: 0.2%;
+        margin-left: 50%;
+    }
+    #skiingimg {
+        width: 60%;
+        margin-left: 0%;
+    }
+    #walkingimg {
+        width: 40%;
+        margin-left: 50%;
+    }
+    #jogtext, #indoorjogtext, #cyclingtext, #weighttrainingtext, #skiingtext, #walkingtext {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 10vw;
+    }
+    #jogtext {
+        margin-left: 55%;
+        margin-top: -35%;
+        color: rgb(122, 1, 1);
+    }
+    #indoorjogtext {
+        margin-left: 1%;
+        margin-top: -22%;
+        color: black;
+    }
+    #cyclingtext {
+        margin-left: 50%;
+        margin-top: -30%;
+        color: rgb(0, 88, 27);
+    }
+    #weighttrainingtext {
+        margin-left: 3%;
+        margin-top: -15%;
+        color: rgb(255, 223, 163);
+    }
+    #skiingtext {
+        margin-left: 60%;
+        margin-top: -18%;
+        color: rgb(188, 255, 255);
+    }
+    #walkingtext {
+        margin-left: 10%;
+        margin-top: -24%;
+        color: burlywood;
+    }
+    #profile {
+        background-color: rgb(199, 199, 199);
+        margin: 3%;
+        border-radius: 10vw;
+        height: 20vw;
+    }
+    #pfp {
+        float:left;
+        width: 18%;
+        border-radius: 40vw;
+        margin-top: 1.7%;
+        margin-left: 1.5%;
+    }
+    #myprofile {
+        margin-left: 10%;
+        font-size: 6vw;
+    }
+    #logout {
+        padding-top: 7%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        float:left;
+        margin-top: -13.8%;
+        padding-bottom: 8.5%;
+        font-size: 6vw;
+    }
+    #logout:hover {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: red;
+    }
+    .personalinfo {
+        float: left;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        width: 50%;
+        font-size: 4vw;
+        margin-left: 3%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .profileoptions {
+        margin-top: 20%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 7vw;
+        padding: 5%;
+        margin-left: 0%;
+        margin-bottom: 20%;
+    }
+    .profileoptions:hover {
+        font-size: 10vw;
+        background-color: gray;
+    }
+    #title-y, #y-axis, #y-axisline,.y-axisnum, #wednesday, #thursday, #friday, #saturday, #sunday {
+        display: none;
+    }
+    #monday, #tuesday {
+        margin-left: 25% ;
+        font-size: 4vw;
+    }
+    #x-axisline {
+        margin-top: 80%;
+        border: 1vw;
+        background-color: black;
+    }
+    #days {
+        font-size: 4vw;
+    }
+}
